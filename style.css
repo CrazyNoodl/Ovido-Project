@@ -1037,6 +1037,14 @@ input:checked + .fakecheckbox::before {
   justify-content: space-between;
 }
 
+.column {
+  display: flex;
+  flex-wrap: wrap;
+    width: 45%;
+}
+
+
+
 .faq_title {
   width: 100%;
   padding: 70px 0 50px 0;
@@ -1046,19 +1054,18 @@ input:checked + .fakecheckbox::before {
   text-transform: uppercase;
 }
 
-.faq_item {
+.column_item {
   padding-bottom: 30px;
-  width: 45%;
 
   font-size: 18px;
   border-top: 1px solid #e5e5e5;
 }
 
-.faq_item-title {
+.column_title {
   padding: 5px 0 10px;
 }
 
-.faq_item-text {
+.cloumn_text {
   font-family: 'Casper';
   font-size: 14px;
   font-weight: 400;
